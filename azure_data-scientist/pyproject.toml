@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "azure-data-scientist"
+version = "0.1.0"
+description = "playing around with azure data scientist certification"
+authors = ["Aidan Williamson <aiwilliamson@microsoft.com>"]
+readme = "README.md"
+packages = [{include = "azure_data_scientist"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+pandas = "^1.5.3"
+matplotlib = "^3.6.3"
+numpy = "^1.24.1"
+scikit-learn = "^1.2.0"
+tensorflow = "^2.11.0"
+torch = "^1.13.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
